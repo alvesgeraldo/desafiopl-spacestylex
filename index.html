@@ -10,6 +10,7 @@
 
     <!-- CSS externo -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="shortcut icon" href="img/favicon-space.ico" type="image/x-icon">
 
     <!-- Fontawesome -->
@@ -67,9 +68,12 @@
         </div>
     </section>
 
-    <section id="sobre-nos" class="container d-flex margin">
+    <section id="sobre-nos" class="container d-md-flex margin">
       <div>
-        <img src="img/sobre-nos-section.jpg" alt="Visão de um tripulante dentro de uma nave no espaço, vizualuzando o planeta terra">
+        <picture>
+          <source media="(max-width:600px)" srcset="img/sobre-nos-section-pq.jpg">
+          <img src="img/sobre-nos-section.jpg" alt="Visão de um tripulante dentro de uma nave no espaço, vizualuzando o planeta terra">
+        </picture> 
       </div>
       <div class="d-flex flex-column justify-content-center">
         <h2 class="mb-4">Sobre nós</h2>
@@ -81,15 +85,15 @@
 
     <section id="nossas-aeronaves" class="container margin">
       <h2 class="mb-5">Nossas Aeronaves</h2>
-      <div class="d-flex">
-        <div class="card mr-3" style="width: 36rem;">
+      <div class="d-md-flex">
+        <div class="card mr-3">
           <img class="card-img-top" src="img/produto-3.jpg" alt="Aeronave SpaceX-A350 durante um voo">
           <div class="card-body">
             <h5 class="card-title">SpaceX-A350</h5>
             <p class="card-text">Aeronave com capacidade para 366 passageiros e autonomia de mais de 14 mil quilômetros.</p>
           </div>
         </div>
-        <div class="card" style="width: 36rem;">
+        <div class="card">
           <img class="card-img-top" src="img/produto-2.jpg" alt="Visão do satélite SpaceX-S7 no espaço">
           <div class="card-body">
             <h5 class="card-title">SpaceX-S7</h5>
@@ -97,15 +101,15 @@
           </div>
         </div>
       </div>
-      <div class="d-flex mt-5">
-        <div class="card mr-3" style="width: 36rem;">
+      <div class="d-md-flex mt-5">
+        <div class="card mr-3">
           <img class="card-img-top" src="img/produto-4.jpg" alt="Aeronave SpaceX-HX350 em voo">
           <div class="card-body">
             <h5 class="card-title">SpaceX-HX350</h5>
             <p class="card-text">Helicóptero utilitário leve monomotor, com capacidade para 5 passageiros e 1 piloto</p>
           </div>
         </div>
-        <div class="card" style="width: 36rem;">
+        <div class="card">
           <img class="card-img-top" src="img/produto-1.jpg" alt="Aeronave SpaceX-HX350 em voo durante um resgate">
           <div class="card-body">
             <h5 class="card-title">SpaceX-HX250</h5>
@@ -119,7 +123,7 @@
     </section>
 
     <section id="nossos-numeros">
-      
+
     </section>
 
     <!-- Bootstrap JS -->

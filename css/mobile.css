@@ -1,0 +1,79 @@
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    .text-space {
+        color: var(--cor-amarelo);
+        font-size: 2.0rem;
+        font-weight: 900;
+    }
+
+    .topo h1{
+        font-size: 1.5rem;
+    }
+
+    .topo h2{
+        font-size: 1.2rem;
+    }
+
+    .inicio {
+        width: 100%;
+        margin-top: 300px;
+    }
+
+    .topo {
+        background: url(../img/background-home-pq.jpg) no-repeat fixed;
+        opacity: 0.8;
+        height: 90vh;
+    }
+
+    #sobre-nos img{
+        margin-bottom: 3rem;
+    }
+
+    .card {
+        width: 25rem;
+        margin-bottom: 5rem;
+    }
+}
+
+/*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
+@media (max-width: 767.98px) { 
+    .inicio {
+        width: 100%;
+        margin-top: 300px;
+    }
+
+    #sobre-nos img{
+        margin-bottom: 5rem;
+    }
+}
+
+/*Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) {
+    .text-space {
+        color: var(--cor-amarelo);
+        font-size: 3.0rem;
+        font-weight: 900;
+    }
+
+    .topo h1{
+        font-size: 2.0rem;
+    }
+
+    .topo h2{
+        font-size: 1.2rem;
+    }
+
+    .inicio {
+        width: 100%;
+        margin-top: 300px;
+    }
+    
+    #sobre-nos img{
+        margin-bottom: 5rem;
+    }
+}
+
+/*Dispositivos large (desktops com menos de 1200px)*/
+@media (max-width: 1199.98px) {
+    
+}
