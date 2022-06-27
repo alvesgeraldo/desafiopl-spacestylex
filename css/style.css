@@ -55,6 +55,7 @@ body {
     background-size: cover;
     opacity: 0.8;
     height: 90vh;
+    padding-top: 100px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -80,7 +81,7 @@ body {
 
 /* Configurações Sobre nós */
 
-#sobre-nos h2, #nossas-aeronaves h2{
+#sobre-nos h2, #nossas-aeronaves h2, #nossos-numeros h2{
    color: var(--cor-amarelo);
 }
 
@@ -115,5 +116,25 @@ body {
 
 .card p {
     color: var(--cor-branco);
+}
+
+#nossos-numeros {
+    background: url(../img/background-nossos-numeros.jpg) no-repeat fixed center;
+    background-size: cover;
+    opacity: 0.9;
+    height: 400px;
+}
+
+#nossos-numeros span {
+    color: var(--cor-amarelo);
+    font-size: 6rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#nossos-numeros p {
+    color: var(--cor-branco);
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
