@@ -55,6 +55,17 @@
         text-align: center;
     }
 
+    #empresas-parceiras img {
+        margin-bottom: 1rem;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 70%;
+    }
+
 }
 
 /*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
@@ -114,6 +125,17 @@
         text-align: center;
     }
 
+    #empresas-parceiras img {
+        margin-bottom: 1rem;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 60%;
+    }
+
 }
 
 /*Dispositivos médios (tablets com menos de 992px)*/
@@ -166,6 +188,18 @@
         font-size: 1.8rem;
         font-weight: 600;
         text-align: center;
+    }
+
+    #empresas-parceiras img {
+        margin-bottom: 1rem;
+    }
+
+    #img {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 40%;
     }
 
 }
