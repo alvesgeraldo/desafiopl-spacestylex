@@ -174,3 +174,20 @@ body {
 .form-check-label {
     font-size: 0.8rem;
 }
+
+.div-space p {
+    color: var(--cor-amarelo);
+}
+
+.div-des p {
+    color: var(--cor-branco);
+    font-size: 0.8rem;
+}
+
+.div-des a {
+    color: var(--cor-amarelo);
+}
+
+.div-des a:hover {
+    color: var(--cor-cinza);
+}
