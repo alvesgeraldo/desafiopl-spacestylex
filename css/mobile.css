@@ -94,13 +94,21 @@
         margin: 30px auto;
     }
 
+    #box-enderecos {
+        padding-left: 2rem;
+    }
+
     #box-redes-sociais {
-        margin-left: 4rem;
+        margin-left: 1.2rem;
         margin-top: 3rem;
     }
 
     #box-enderecos {
-        border-right: 0 ;
+        border-right: none;
+    }
+
+    footer p {
+        text-align: center;
     }
 
 }
@@ -188,8 +196,12 @@
         margin: 30px auto;
     }
 
+    #box-enderecos {
+        padding-left: 0;
+    }
+
     #box-redes-sociais {
-        margin-left: 8.5rem;
+        margin-left: 1.5rem;
         margin-top: 3rem;
     }
 
