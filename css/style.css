@@ -229,3 +229,11 @@ body {
     margin: 30px auto;
 }
 
+#box-enderecos {
+    padding-left: 5rem;
+    border-right: 2px solid var(--cor-cinza);
+}
+
+.dados-endereco p {
+    color: var(--cor-branco);
+}

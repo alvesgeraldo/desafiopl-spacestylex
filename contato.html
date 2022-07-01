@@ -66,6 +66,34 @@
         </div>
     </section>
 
+    <section id="nossos-contatos" class="margin d-md-flex justify-content-center">
+      <div id="box-enderecos" class="container">
+        <h2>Nossos Endereços</h2>
+        <div id="filiais" class="mb-3">
+          <button type="submit" class="btn btn-outline" onclick="mudarEndereco('matriz')">Matriz</button>
+          <button type="submit" class="btn btn-outline" onclick="mudarEndereco('filial1')">Filial 1</button>
+          <button type="submit" class="btn btn-outline" onclick="mudarEndereco('filial2')">Filial 2</button>
+          <button type="submit" class="btn btn-outline" onclick="mudarEndereco('filial3')">Filial 3</button>
+        </div>
+        <div class="dados-endereco">
+          <p id="endereco">Rua da Insdústrias, 1289</p>
+          <p id="bairro">Distrito Industrial Galpão 1 a 5</p>
+          <p id="cidade">Belo Horionte - MG</p>
+          <p id="cep">CEP 32145-000</p>
+          <p id="fone">(31) 3399-2050</p>
+        </div>
+      </div>
+      <div id="box-redes-sociais" class="container">
+        <h2>Redes Sociais</h2>
+        <div class="d-flex flex-column" style="width: 10rem;">
+          <a href="#" class="btn btn-outline mb-2"><i class="fab fa-youtube"></i> Youtube</a>
+          <a href="#" class="btn btn-outline mb-2"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#" class="btn btn-outline mb-2"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#" class="btn btn-outline mb-2"><i class="fab fa-twitter"></i>Twitter</a>
+        </div>
+      </div>
+    </section>
+
     <section id="formulario-contato" class="margin">
         <div class="container d-flex justify-content-center mb-3">
             <h2 class="h5">Estamos ansiosos para ouvir você. Envie sua mensagem.</h2>
@@ -97,7 +125,7 @@
     </section>
 
     <section id="maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60031.04423359155!2d-43.9923863807393!3d-19.884744131750068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1656635541593!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60031.04423359155!2d-43.9923863807393!3d-19.884744131750068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690cacacf2c33%3A0x5b35795e3ad23997!2sBelo%20Horizonte%2C%20MG!5e0!3m2!1spt-BR!2sbr!4v1656635541593!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <footer>
@@ -110,6 +138,8 @@
           </div>
         </div>
     </footer>
+
+    <script src="js/scripts.js"></script>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

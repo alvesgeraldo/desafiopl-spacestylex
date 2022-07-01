@@ -94,6 +94,15 @@
         margin: 30px auto;
     }
 
+    #box-redes-sociais {
+        margin-left: 4rem;
+        margin-top: 3rem;
+    }
+
+    #box-enderecos {
+        border-right: 0 ;
+    }
+
 }
 
 /*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/
@@ -177,6 +186,15 @@
     #formulario-contato {
         width: 100%;
         margin: 30px auto;
+    }
+
+    #box-redes-sociais {
+        margin-left: 8.5rem;
+        margin-top: 3rem;
+    }
+
+    #box-enderecos {
+        border-right: none;
     }
 
 }
